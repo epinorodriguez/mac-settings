@@ -1,19 +1,19 @@
 #focus window
-lalt - h : yabai -m window --focus west
-lalt - j : yabai -m window --focus south
-lalt - k : yabai -m window --focus north
-lalt - l : yabai -m window --focus east
+cmd - h : yabai -m window --focus west
+cmd - j : yabai -m window --focus south
+cmd - k : yabai -m window --focus north
+cmd - l : yabai -m window --focus east
 
 lalt + cmd - return : yabai -m window --toggle zoom-fullscreen
 
 
 # swap managed window
-shift + lalt - k : yabai -m window --swap north
-shift + lalt - j : yabai -m window --swap south
-shift + lalt - h : yabai -m window --swap west
-shift + lalt - l : yabai -m window --swap east
+shift + cmd - k : yabai -m window --swap north
+shift + cmd - j : yabai -m window --swap south
+shift + cmd - h : yabai -m window --swap west
+shift + cmd - l : yabai -m window --swap east
 
 
 # increase window size
-shift + lalt - p : yabai -m window --resize left:-20:0
-shift + lalt - u : yabai -m window --resize left:20:0
+shift + cmd - p : yabai -m window --resize left:-20:0
+shift + cmd - u : yabai -m window --resize left:20:0
